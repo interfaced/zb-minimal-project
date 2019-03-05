@@ -1,0 +1,11 @@
+{
+  "name": "zb-minimal-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "zombiebox run"
+  },
+  "dependencies": {
+    "zombiebox": "^2.0.0-alpha.1",
+    "zombiebox-platform-pc": "^2.0.0-alpha.1"
+  }
+}
