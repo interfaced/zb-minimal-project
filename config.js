@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = () => ({
 	project: {
 		name: 'minimal',
-		module: 'app',
-		main: 'app/application.js'
+		module: path.resolve(__dirname, 'app'),
+		main: path.resolve(__dirname, 'app/application.js')
 	}
 });
